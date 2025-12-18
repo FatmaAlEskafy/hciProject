@@ -1,6 +1,6 @@
-/* ==================== CSS Variables ==================== */
+
 :root {
-    /* Brand Colors من الموقع القديم */
+    
     --primary-red:#6B0F2A ;
     --primary-gold: #D4AF37;
     --dark-gray: #2D2D2D;
@@ -8,32 +8,28 @@
     --light-gray: #F5F5F5;
     --white: #FFFFFF;
     
-    /* Typography */
     --font-family: 'Cairo', sans-serif;
     --heading-weight: 700;
     --normal-weight: 400;
-    
-    /* Spacing */
+
     --section-padding: 80px;
     --card-padding: 30px;
-    
-    /* Border Radius */
+
     --border-radius-sm: 8px;
     --border-radius-md: 12px;
     --border-radius-lg: 20px;
-    
-    /* Shadows */
+
     --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
     --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
     --shadow-lg: 0 8px 32px rgba(0,0,0,0.16);
     
-    /* Transitions */
+    
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
     --transition-slow: 0.5s ease;
 }
 
-/* Dark Mode Variables */
+
 [data-theme="dark"] {
     --primary-red: #A01845;
     --dark-gray: #E0E0E0;
@@ -42,7 +38,7 @@
     --white: #1A1A1A;
 }
 
-/* ==================== Reset & Base Styles ==================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -68,7 +64,7 @@ img {
     height: auto;
 }
 
-/* ==================== Top Bar ==================== */
+
 .top-bar {
     background-color: #6B0F2A ;
     color: var(--white);
@@ -140,7 +136,6 @@ img {
    
 }
 
-/* ==================== Main Navbar ==================== */
 .main-navbar {
     background: var(--white);
     box-shadow: var(--shadow-sm);
@@ -194,7 +189,6 @@ img {
 }
 
 
-/* Mega Menu */
 .mega-menu {
     position: absolute;
     top: 100%;
@@ -228,10 +222,10 @@ img {
     cursor: pointer;
 }
 
-/* ===== Mega Menu Vertical Layout ===== */
+
 .mega-menu-grid {
     display: flex;
-    flex-direction: column;   /* تحت بعض */
+    flex-direction: column;
     gap: 16px;
 }
 
@@ -281,7 +275,7 @@ img {
     color: var(--white);
 }
 
-/* ==================== Search Section ==================== */
+
 .search-section {
     background: linear-gradient(135deg, var(--light-gray) 0%, #E8E8E8 100%);
     padding: 40px 0;
@@ -373,7 +367,6 @@ img {
     background: var(--light-gray);
 }
 
-/* ==================== Hero Carousel ==================== */
 .hero-carousel {
     position: relative;
     height: 650px;
@@ -456,7 +449,6 @@ img {
     box-shadow: var(--shadow-lg);
 }
 
-/* Carousel Controls */
 .carousel-nav {
     position: absolute;
     bottom: 0;
@@ -525,7 +517,6 @@ img {
     left: 20px;
 }
 
-/* ==================== Tools Section (Currency + News) ==================== */
 .tools-section {
     padding: var(--section-padding) 0;
     background: var(--white);
@@ -552,7 +543,6 @@ img {
 
 .tools-grid {
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
     gap: 40px;
 }
 
@@ -593,7 +583,6 @@ img {
     color: var(--dark-gray);
 }
 
-/* Currency Converter */
 .currency-converter {
     display: flex;
     flex-direction: column;
@@ -697,7 +686,6 @@ img {
     font-weight: 600;
 }
 
-/* News Section */
 .news-container {
     
     position: relative;
@@ -781,7 +769,7 @@ img {
     background: var(--primary-red);
     color: var(--white);
 }
-/* ==================== Services Cards ==================== */
+
 .services-section {
     padding: var(--section-padding) 0;
     background: var(--light-gray);
@@ -871,7 +859,7 @@ img {
     transform: scale(1.05);
 }
 
-/* ==================== Customer Service ==================== */
+
 .customer-service-section {
     padding: var(--section-padding) 0;
     background: var(--white);
@@ -928,7 +916,6 @@ img {
     color: var(--medium-gray);
 }
 
-/* ==================== Stats Section ==================== */
 .stats-section {
     padding: var(--section-padding) 0;
     background: linear-gradient(135deg, var(--primary-red), #6B0F2A);
@@ -960,7 +947,6 @@ img {
     opacity: 0.9;
 }
 
-/* ==================== Newsletter Section ==================== */
 .newsletter-section {
     padding: var(--section-padding) 0;
     background: var(--light-gray);
@@ -1029,7 +1015,6 @@ img {
     box-shadow: var(--shadow-md);
 }
 
-/* ==================== Footer ==================== */
 .footer {
     background: linear-gradient(180deg, #F5F5F5 0%, #E8E8E8 50%, #D0D0D0 100%);
     color: var(--dark-gray);
@@ -1153,7 +1138,6 @@ img {
     color: var(--primary-red);
 }
 
-/* ==================== Chatbot ==================== */
 .chatbot-trigger {
     position: fixed;
     bottom: 30px;
@@ -1202,9 +1186,6 @@ img {
     font-weight: 700;
 }
 
-/* ==================== Responsive Design ==================== */
-
-/* Tablet */
 @media (max-width: 992px) {
     .nav-menu {
         display: none;
@@ -1252,7 +1233,6 @@ img {
     }
 }
 
-/* Mobile */
 @media (max-width: 768px) {
     :root {
         --section-padding: 50px;
@@ -1379,7 +1359,6 @@ img {
     }
 }
 
-/* Small Mobile */
 @media (max-width: 480px) {
     .search-title {
         font-size: 18px;
@@ -1418,7 +1397,6 @@ img {
     }
 }
 
-/* ==================== Print Styles ==================== */
 @media print {
     .top-bar,
     .main-navbar,
@@ -1440,7 +1418,6 @@ img {
     }
 }
 
-/* ==================== Animations ==================== */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -1456,12 +1433,10 @@ img {
     animation: fadeIn 0.5s ease;
 }
 
-/* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
 }
 
-/* Selection Color */
 ::selection {
     background: var(--primary-gold);
     color: var(--white);
@@ -1472,7 +1447,6 @@ html {
     color: var(--white);
 }
 
-/* Scrollbar Styling */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -1490,13 +1464,12 @@ html {
     background: var(--primary-gold);
 }
 
-/* Focus Visible */
+
 :focus-visible {
     outline: 2px solid var(--primary-gold);
     outline-offset: 2px;
 }
 
-/* Loading Animation */
 .loading {
     display: inline-block;
     width: 20px;
@@ -1536,7 +1509,7 @@ html {
 }
 
 .dot.active {
-    background-color: var(--primary-red); /* لون النقطة الحالية */
+    background-color: var(--primary-red); 
     transform: scale(1.3);
 }
 
@@ -1553,7 +1526,6 @@ body {
     background: var(--rs-bg);
 }
 
-/* Hero */
 .rs-hero {
     background: linear-gradient(135deg, var(--rs-main), #5c0f1a);
     color: #fff;
@@ -1570,7 +1542,6 @@ body {
     opacity: .9;
 }
 
-/* Services layout */
 .rs-wrapper {
     max-width: 1100px;
     margin: 90px auto;
@@ -1587,8 +1558,8 @@ body {
     border-radius: 22px;
     cursor: pointer;
 
-    opacity: 1;                 /* ✅ تظهر */
-    transform: translateY(0);   /* ✅ تظهر */
+    opacity: 1;                 
+    transform: translateY(0);  
 }
 
 .rs-item:hover {
@@ -1625,7 +1596,7 @@ body {
     opacity: .85;
 }
 
-/* Scroll animation */
+
 .rs-item.rs-visible {
     animation: rsFadeUp .6s ease forwards;
 }
@@ -1641,7 +1612,7 @@ body {
     }
 }
 .active {
-    /* background: var(--primary-red); */
+    
     color: var(--primary-red);
     border-bottom:#625e5e 2px solid;
 }
@@ -1656,12 +1627,6 @@ body {
     overflow: visible !important;
 }
 
-
-
-
-/* ==================== الحل الكامل للمشكلة ==================== */
-
-/* 1. إضافة overflow: visible للـ container */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -1670,7 +1635,6 @@ body {
     overflow: visible !important;
 }
 
-/* 2. تعديل الـ search section */
 .search-section {
     background: linear-gradient(135deg, var(--light-gray) 0%, #E8E8E8 100%);
     padding: 40px 0 120px 0;
@@ -1679,7 +1643,6 @@ body {
     overflow: visible;
 }
 
-/* 3. تعديل الـ search container */
 .search-container {
     max-width: 800px;
     margin: 0 auto;
@@ -1687,13 +1650,12 @@ body {
     z-index: 9999;
 }
 
-/* 4. تعديل الـ search box */
+
 .search-box {
     position: relative;
     z-index: 9999;
 }
 
-/* 5. تعديل الـ search suggestions */
 .search-suggestions {
     position: absolute;
     top: 100%;
@@ -1709,7 +1671,6 @@ body {
     z-index: 99999;
 }
 
-/* 6. خلي باقي الـ sections تحت */
 .hero-carousel {
     position: relative;
     height: 650px;
@@ -1731,4 +1692,5 @@ body {
     overflow: visible;
     position: relative;
     z-index: 1;
+
 }

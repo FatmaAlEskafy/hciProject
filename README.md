@@ -50,8 +50,9 @@ The redesign is based on:
 ## 📂 Project Structure
 ```
 └── README.md          # Project documentation
-└── README.md          # Project documentation
-└── README.md          # Project documentation
+└── Presentation.pdf          # Project presenation
+└── Analysis.pdf          # Project Analysis
+
 
 ├── index.html          # Main homepage
 ├── indvid.html

@@ -4,7 +4,7 @@
 1. Mahmoud Hesham Salem Mohamed
 2. Assem Essam Nabil Abdelhamid
 3. Jana Ahmed Samy Abdallah Shahin
-4. Fatma Mohamed Abdelatty Abdelkader
+4. Fatma Mohamed Abdelaty Abdelkader
 
 ## 📋 Project Overview
 This project presents a comprehensive redesign of the Banque Misr website, focusing on improving usability and user experience through the application of Human-Computer Interaction (HCI) principles.

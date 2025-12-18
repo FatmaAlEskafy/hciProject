@@ -46,7 +46,7 @@ The redesign is based on:
 ## 🔗 Links
 - **Redesigned Website**: https://fatmaaleskafy.github.io/hciProject/
 - **Original Website**: https://www.banquemisr.com/?sc_lang=ar-EG
-
+- **Presentation Link**: https://www.canva.com/design/DAG7ruWID6k/hNNrCezQacx1VZKn-RvrwQ/edit?utm_content=DAG7ruWID6k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ## 📂 Project Structure
 ```
 └── README.md          # Project documentation
